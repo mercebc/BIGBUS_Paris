@@ -1,0 +1,134 @@
+a {
+  color: white; }
+
+#features {
+  text-align: center; }
+  #features img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 15px 15px 15px; }
+  #features h4, #features p {
+    color: blue; }
+
+footer {
+  background: #333;
+  color: #eee;
+  text-align: center;
+  font-size: 11px;
+  padding: 20px; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility; }
+
+#yelParis {
+  color: yellow; }
+
+#featuresHeading {
+  margin-top: 50px;
+  text-align: center; }
+  #featuresHeading h2 {
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px; }
+  #featuresHeading p {
+    padding-left: 100px;
+    padding-right: 100px; }
+
+.col-border {
+  border-left: 1px solid #d7d7d7; }
+
+.well .page-header {
+  margin-top: 0; }
+
+.well .page-header h1 {
+  margin-top: 0; }
+
+ul.unstyled {
+  list-style: none;
+  padding: 0; }
+
+.navbar {
+  margin-bottom: 0px;
+  text-align: center;
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important; }
+
+.navbar-nav li a {
+  padding-top: 25px;
+  color: white; }
+
+#nav1, footer {
+  background: #930b31; }
+
+#nav2, .copyright {
+  background: #750e27; }
+
+#nav2 .navbar-nav {
+  text-align: center;
+  float: none; }
+  #nav2 .navbar-nav li {
+    float: none;
+    display: inline-block; }
+
+.table {
+  position: absolute;
+  display: table;
+  width: 100%; }
+
+.table-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle; }
+
+.jumbotron {
+  position: relative;
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  background: url(../../images/background.png) top center no-repeat;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden; }
+  .jumbotron .container {
+    text-align: center;
+    float: center; }
+
+.btn {
+  color: #750e27;
+  background-color: white; }
+
+.btn-yellow {
+  background-color: yellow;
+  margin-top: 10px; }
+
+@media (max-width: 480px) {
+  .jumbotron {
+    background: url(../../images/background.png) top center no-repeat; } }
+@media (max-width: 768px) {
+  .jumbotron {
+    background: url(../../images/background.png) top center no-repeat; }
+
+  #featuresHeading p, #featuresHeading h2 {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  #features img {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 0px; } }
+@media (min-width: 1200px) {
+  .jumbotron {
+    background: url(../../images/background.png) top center no-repeat; }
+
+  #featuresHeading p, #featuresHeading h2 {
+    padding-left: 200px;
+    padding-right: 200px; }
+
+  #features img {
+    max-width: 300px;
+    max-height: 300px; } }
+
+/*# sourceMappingURL=styles.css.map */
